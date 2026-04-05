@@ -1,0 +1,40 @@
+body,h1,h2,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+.site-header{
+    background-color: rgba(138, 157, 94, 1);
+    border-radius: 10px 10px 0 0;
+    padding: 12px 12px 0 12px;
+}
+.site-main{
+    background-color:rgba(243, 232, 210, 1);
+    padding: 12px;
+    border-radius: 0 0 10px 10px;
+}
+.wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.site-links{
+    color:white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-link{
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(25, 54, 26, 1);
+    padding: 4px 12px;
+    color:white;
+    text-decoration: none;
+    display:inline-block;
+}
+.nav-link:hover{
+    background-color:rgba(243, 232, 210, 1);
+    color: rgba(25, 54, 26, 1);
+}
+.current-page{
+    background-color: antiquewhite;
+    color: rgba(121, 89, 70, 1);
+}
