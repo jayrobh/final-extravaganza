@@ -1,9 +1,30 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
 body,h1,h2,p,ul,li{
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+}
+.logo{
+    width:150px;
+    height:auto;
+}
+.page-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .site-header{
     background-color: rgba(138, 157, 94, 1);
+    color:white;
     border-radius: 10px 10px 0 0;
     padding: 12px 12px 0 12px;
 }
@@ -29,6 +50,9 @@ body,h1,h2,p,ul,li{
     color:white;
     text-decoration: none;
     display:inline-block;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    font-weight: 100;
 }
 .nav-link:hover{
     background-color:rgba(243, 232, 210, 1);
@@ -37,4 +61,34 @@ body,h1,h2,p,ul,li{
 .current-page{
     background-color: antiquewhite;
     color: rgba(121, 89, 70, 1);
+}
+.welcome{
+     color:rgba(121, 89, 70, 1);
+     display: flex;
+     justify-content: center;
+     font-family: "DM Serif Display", serif;
+     font-style: normal;
+}
+.top-photo{
+    width: 500px;
+    height: auto;
+    padding: 10px;
+}
+.top-photo-container{
+    display: flex;
+    justify-content: center;
+}
+.headings{
+    color:rgba(121, 89, 70, 1);
+     display: flex;
+     font-family: "DM Serif Display", serif;
+     font-style: normal;
+     padding-right: 10px;
+}
+.content{
+    color:rgba(121, 89, 70, 1);
+    display: flex;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
