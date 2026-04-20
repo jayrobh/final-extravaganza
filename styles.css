@@ -92,3 +92,12 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+.map-photo{
+    width: 550px;
+    height: auto;
+    padding: 10px;
+}
+.map-container{
+    display: flex;
+    justify-content: center;
+}
